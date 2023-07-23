@@ -21,7 +21,7 @@ int main()
     std::cout << "\nThe Sequence 'Over' begins at location ";
     std::cout << phrase.find("Over") << "\n";                   //Finds the string in 'phrase' and returns the index it begins at.
 
-    if (phrase.find("eggplant") == std::string::npos) {         //You'll find no such vegetables here. npos means "Not at position" or cannot be found.
+    if (phrase.find("eggplant") == std::string::npos) {         //You'll find no such vegetables here. npos means "return the largest possible size of 'phrase' and see that "Eggplant" cannot exist.
         std::cout << "'Eggplant' is not found in phrase... Incase you were wondering.\n\n";
     }
 
