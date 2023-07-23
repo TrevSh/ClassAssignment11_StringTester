@@ -28,7 +28,7 @@ int main()
     phrase.erase(4, 5);                                         //Erases chars in phrase by index...
     std::cout << "Phrase is now: " << phrase << "\n";
 
-    phrase.erase(4);
+    phrase.erase(4);                                            //or erases ALL chars starting from an index to the end of the string. This piece of code says "Delete all chars from 4 and after.".
     std::cout << "Phrase is now: " << phrase << "\n";
 
     phrase.erase();                                             //or the whole string if no argument is entered.
