@@ -14,7 +14,7 @@ int main()
     phrase[0] = 'L';                        //Accesses the char at the [0] index ('G') in string 'phrase'. Changes the char to 'L'.
     std::cout << "The Phrase is now: " << phrase << "\n\n";
 
-    for (unsigned int i = 0; i < phrase.size(); ++i) {                              //string.size returns the size of the string as an int. A (.) is called a Member Selection Operator
+    for (unsigned int i = 0; i < phrase.size(); ++i) {                              //string.size returns the size of the string as an int. A (.) is called a Member Selection Operator.
         std::cout << "Character at position " << i << " is: " << phrase[i] << "\n";
     }
 
@@ -41,3 +41,11 @@ int main()
     return 0;
 
 }
+
+
+//From the book page 94:
+
+/*      Iterating through a sequence is a powerful and often - used technique in games.You might, for
+example, iterate through hundreds of individual units in a strategy game, updating their status and
+order.Or you might iterate through the list of vertices of a 3D model to apply some geometric
+transformation.     */
