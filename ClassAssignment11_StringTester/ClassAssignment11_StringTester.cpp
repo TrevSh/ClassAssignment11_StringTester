@@ -14,7 +14,7 @@ int main()
     phrase[0] = 'L';                        //Accesses the char at the [0] index ('G') in string 'phrase'. Changes the char to 'L'.
     std::cout << "The Phrase is now: " << phrase << "\n\n";
 
-    for (unsigned int i = 0; i < phrase.size(); ++i) {                              //string.size returns the size of the string as an int.
+    for (unsigned int i = 0; i < phrase.size(); ++i) {                              //string.size returns the size of the string as an int. A (.) is called a Member Selection Operator
         std::cout << "Character at position " << i << " is: " << phrase[i] << "\n";
     }
 
@@ -35,7 +35,7 @@ int main()
     std::cout << "Phrase is now: " << phrase << "\n";
         
     if (phrase.empty()) {                                       //Checks to see if a string is empty. Simple enough?
-        std::cout << "\nThe Phrase is no more, Commander.\n";
+        std::cout << "\nThe Phrase is no more, Commander. It has been destroyed by your hand.\n\n";
     }
     system("pause");                                                        //Keeps console open after debugging. Prompts user input.
     return 0;
